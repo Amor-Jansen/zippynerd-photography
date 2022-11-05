@@ -15,15 +15,47 @@ body {
 
 /* heading and logo*/
 
-h1 {
+h1, h2 {
     font-family: Shalimar, sans-serif;
     letter-spacing: 2px;
     color: #353935;
+    text-decoration: none;
+    margin-top: 15px;
 }
 
 #logo {
     width: auto;
     height: auto;
     text-align: center;
-    font-size: 280%;
+    font-size: 350%;
+}
+
+/*navigation links*/
+
+#menu {
+    font-size: 110%;
+    text-align: center;
+    list-style: none;
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1.5px dotted #353935;
+}
+
+.active {
+    border-bottom: 1.5px solid #353935;
 }
