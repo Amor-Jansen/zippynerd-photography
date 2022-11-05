@@ -7,6 +7,23 @@
 }
 
 body {
-    font-family: Shalimar, sans-serif;
+    font-family: Overpass, sans-serif;
     font-weight: 300;
+    color: #36454f;
+    
+}
+
+/* heading and logo*/
+
+h1 {
+    font-family: Shalimar, sans-serif;
+    letter-spacing: 2px;
+    color: #353935;
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 280%;
 }
