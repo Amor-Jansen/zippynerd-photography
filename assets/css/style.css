@@ -19,7 +19,6 @@ h1, h2 {
     font-family: Shalimar, sans-serif;
     letter-spacing: 2px;
     color: #353935;
-    text-decoration: none;
     margin-top: 15px;
 }
 
@@ -28,6 +27,12 @@ h1, h2 {
     height: auto;
     text-align: center;
     font-size: 350%;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 250%;
 }
 
 /*navigation links*/
@@ -58,4 +63,11 @@ h1, h2 {
 
 .active {
     border-bottom: 1.5px solid #353935;
+}
+
+/* carousel styling*/
+
+.d-block {
+    width: 600px;
+    height: 315px;
 }
