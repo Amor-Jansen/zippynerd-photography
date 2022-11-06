@@ -25,7 +25,7 @@ h1, h2 {
 #logo {
     width: auto;
     height: auto;
-    text-align: center;
+    float: left;
     font-size: 350%;
     
 }
@@ -39,7 +39,7 @@ h2 {
 
 #menu {
     font-size: 110%;
-    text-align: center;
+    text-align: right;
     list-style: none;
 }
 
@@ -139,4 +139,13 @@ h2 {
 #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
     z-index: 3;
     opacity: 1;
+}
+
+/*footer styling*/
+
+footer {
+    text-align: center;
+    color: #353935;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
