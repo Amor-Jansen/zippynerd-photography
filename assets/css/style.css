@@ -10,7 +10,7 @@ body {
     font-family: Overpass, sans-serif;
     font-weight: 300;
     color: #36454f;
-    background-color: #BEBEBE;
+    background-image: linear-gradient(to bottom right, rgb(194, 193, 193), rgb(102, 102, 100));;
 }
 
 /* heading and logo*/
@@ -68,9 +68,9 @@ h2 {
 /* carousel styling*/
 
 .carousel-wrapper {
-    height: 90vh;
+    height: 80vh;
     position: relative;
-    width: 95vw;
+    width: 80vw;
     display: block;
     margin: 15px auto;
     border: 1px double black;
