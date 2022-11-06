@@ -68,11 +68,11 @@ h2 {
 /* carousel styling*/
 
 .carousel-wrapper {
-    height: 100vh;
+    height: 80vh;
     position: relative;
-    width: 75vw;
+    width: 80vw;
     display: block;
-    margin: 50px auto;
+    margin: 30px auto;
     border: 2px solid black;
 }
 
@@ -105,7 +105,7 @@ h2 {
     right: 30px;
     position: absolute;
     top: 50%;
-    transform: translateY(50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
 }
 
 [id^= "item"] {
