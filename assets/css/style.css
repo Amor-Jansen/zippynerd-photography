@@ -73,7 +73,7 @@ h2 {
     width: 80vw;
     display: block;
     margin: 15px auto;
-    border: 1px double black;
+    box-shadow: 10px 10px 10px 10px;
 }
 
 .carousel-image {
@@ -145,7 +145,7 @@ h2 {
 
 footer {
     text-align: center;
-    color: #353935;
+    color: #f9eae5;
     font-size: 14px;
     padding-bottom: 20px;
 }
