@@ -156,10 +156,19 @@ h3 {
     text-align: center;
     font-family: Shalimar, sans-serif;
     font-size: 250%;
+    padding-top: 25px;
 }
 
-#about-us > p {
-    text-align: center;
-    color: #353935;
-    
+#about-left {
+    padding: 25px;
+    width: 40%;
+    float: left;
+    clear: both;
+}
+
+
+#portrait {
+    width: 200px;
+    height: 200px;
+    float: right;
 }
