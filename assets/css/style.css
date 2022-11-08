@@ -150,9 +150,16 @@ footer {
     padding-bottom: 20px;
 }
 
-/* about page styling*/
+/*about us information*/
 
-#about-info {
-    text-align: left;
+h3 {
+    text-align: center;
+    font-family: Shalimar, sans-serif;
+    font-size: 250%;
+}
+
+#about-us > p {
+    text-align: center;
+    color: #353935;
     
 }
